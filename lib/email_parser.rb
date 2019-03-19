@@ -6,8 +6,6 @@ class EmailParser
 
   attr_reader :emails
 
-  @@all = []
-
   def initialize(emails)
     @emails = emails
     @@all << self
